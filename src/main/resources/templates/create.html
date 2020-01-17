@@ -57,15 +57,15 @@
       <form class="form-create-blog" method="post" action="/blogs">
         <div class="form-group">
           <label for="title">标题</label>
-          <input type="text" class="form-control" id="title" placeholder="文章的标题" autofocus="">
+          <input type="text" class="form-control" name="title" id="title" placeholder="文章的标题" autofocus="">
         </div>
         <div class="form-group">
           <label for="title">标签</label><p>
-          <input type="text" class="form-control" id="tag" placeholder="标签" autofocus="">
+          <input type="text" class="form-control" name="tag" id="tag" placeholder="标签" autofocus="">
         </div>
         <div class="form-group">
           <label for="content">内容</label>
-          <textarea class="form-control" id="content" placeholder="文章的内容" rows="18"></textarea>
+          <textarea class="form-control" id="content" name="content" placeholder="文章的内容" rows="18"></textarea>
         </div>
         <button type="submit" class="btn pull-right btn-primary">保存</button>
       </form>
